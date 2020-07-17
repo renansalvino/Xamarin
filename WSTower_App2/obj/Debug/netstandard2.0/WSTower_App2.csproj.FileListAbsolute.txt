@@ -1,0 +1,15 @@
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\WSTower_App2.csprojAssemblyReference.cache
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\DetalhesPage.xaml.g.cs
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\WSTower_App2.AssemblyInfoInputs.cache
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\WSTower_App2.AssemblyInfo.cs
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\WSTower_App2.csproj.CoreCompileInputs.cache
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\bin\Debug\netstandard2.0\WSTower_App2.deps.json
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\bin\Debug\netstandard2.0\WSTower_App2.dll
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\bin\Debug\netstandard2.0\ref\WSTower_App2.dll
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\bin\Debug\netstandard2.0\WSTower_App2.pdb
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\WSTower_App2.dll
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\ref\WSTower_App2.dll
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\WSTower_App2.pdb
+C:\Users\Renan\Desktop\Projetos\WSTower_App2\WSTower_App2\obj\Debug\netstandard2.0\CompraIngressos.xaml.g.cs

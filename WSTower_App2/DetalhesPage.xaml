@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTower_App2.DetalhesPage">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <!--Imagem Logo-->
+            <Image Source="WS_Towers.png"
+                   WidthRequest="{OnPlatform Android=60}"
+                   HeightRequest="{OnPlatform Android=100}"
+                   ></Image>
+            <!--Imagem Logo fifa-->
+            <Image 
+                   Margin="30"
+                   Source="app_logo.png"
+                   WidthRequest="{OnPlatform Android=300}"
+                   HeightRequest="{OnPlatform Android=100}">
+            </Image>
+                <!--Informações do Confronto-->
+            <FlexLayout AlignItems="Center" JustifyContent="SpaceBetween">
+                <Label Text="Palmeiras X Flamengo" TextColor="Blue" FontAttributes="Bold" FontSize="Medium"></Label>
+                <Label Text="Horário 20:00 a 00:00" TextColor="Blue" FontSize="Medium"></Label>
+            </FlexLayout>
+
+            <FlexLayout AlignItems="Center" JustifyContent="SpaceBetween">
+                <Label Text="Campeonato Brasileiro" TextColor="Blue" FontAttributes="Bold" FontSize="Medium"></Label>
+                <Label Text="Data:20/10/2020" TextColor="Blue" FontSize="Medium"></Label>
+            </FlexLayout>
+
+            <Label VerticalOptions="End"
+                   Text="Local: Pacaembu"
+                   TextColor="Red"
+                   FontSize="Medium">
+            </Label>
+            <Label Text="Detalhes:"
+                   TextColor="Blue"
+                   FontSize="Large"
+                   ></Label>
+            <Label Text="Grande decisão, o jogo decide se o Palmeiras vai cair (Pela 3º vez) ou se o Flamengo será o novo Campeão Brasileiro de Futebol, assim como o ano passado."
+                   TextColor="Black"
+                   FontSize="Medium">
+            </Label>
+                    <!--Botão de Comprar os Ingressos-->
+            <Button Text="Comprar"
+                    CornerRadius="5"
+                    TextColor="White"
+                    BackgroundColor="Green"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    >
+            </Button>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

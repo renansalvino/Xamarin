@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WSTower_App2.CompraIngressos">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Image Source="WS_Towers"
+                    WidthRequest="{OnPlatform Android=60}"
+                   HeightRequest="{OnPlatform Android=150}"/>
+            <StackLayout Spacing="30"/>
+            <Label Text="Palmeiras x Flamengo"
+                   TextColor="Blue"
+                   FontSize="Medium"/>
+            <StackLayout Spacing="30"/>
+            <Label Text="Campeonato Brasileiro" TextColor="Black"/>
+            <StackLayout Spacing="30"/>
+            <Label Text="Horário: 20:00 a 00:00" TextColor="Black"/>
+            <StackLayout Spacing="30"/>
+            <Label Text="Local: Pacaembu"
+                   TextColor="Red"/>
+            <StackLayout Spacing="30"/>
+            <Label Text="Data: 20/10/2020" 
+                   TextColor="Black"/>
+            <StackLayout Spacing="30"/>
+            <StackLayout>
+                <Label Text="Tipo de ingresso: Arquibancada" TextColor="Black"/>
+                <StackLayout Spacing="30"/>
+                <Label Text="Quantidade: 2"
+                       TextColor="Black"/>
+                <StackLayout Spacing="30"/>
+                <Label Text="Valor: 192,22 Reais" TextColor="Black"/>
+                <StackLayout Spacing="30"/>
+                <Label Text="Forma de pagamento: Dinheiro" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout Padding="30"></StackLayout>
+            <FlexLayout  AlignItems="Center" JustifyContent="SpaceAround">
+                    <Button Text="Cancelar"
+                         CornerRadius="5"
+                        WidthRequest="150"
+                        BackgroundColor="Red"
+                        TextColor="White"/>
+                    <Button Text="Comprar"
+                        CornerRadius="5"
+                        WidthRequest="150"
+                        BackgroundColor="Green"
+                        TextColor="White">
+                    </Button>
+                </FlexLayout>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
