@@ -26,14 +26,42 @@
                    TextColor="Black"/>
             <StackLayout Spacing="30"/>
             <StackLayout>
-                <Label Text="Tipo de ingresso: Arquibancada" TextColor="Black"/>
+                <Label Text="Tipo de ingresso: Arquibancada:" TextColor="Black"/>
+                <Picker x:Name="pckFinalidade" HorizontalOptions="FillAndExpand" Title="Escolha o tipo de ingresso">
+                    <Picker.Items>
+                        <x:String>Arquibancada (Sem Cobertura)</x:String>
+                        <x:String>Camarote</x:String>
+                        <x:String>Cobertura</x:String>
+                    </Picker.Items>
+                </Picker>
                 <StackLayout Spacing="30"/>
-                <Label Text="Quantidade: 2"
-                       TextColor="Black"/>
+                <Label Text="Selecione abaixo a quantidade de ingressos:" TextColor="Black"/>
+                <Picker x:Name="ckpFinalidade" HorizontalOptions="FillAndExpand" Title="Qual a quantidade de ingressos?">
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                        <x:String>10</x:String>
+                    </Picker.Items>
+                </Picker>
                 <StackLayout Spacing="30"/>
-                <Label Text="Valor: 192,22 Reais" TextColor="Black"/>
+                <Label Text="Valor: 192,22 Reais" TextColor="Black" FontSize="Medium"/>
                 <StackLayout Spacing="30"/>
-                <Label Text="Forma de pagamento: Dinheiro" TextColor="Black"/>
+                <Label Text="Selecione abaixo a Forma de pagamento:" TextColor="Black"/>
+                <Picker x:Name="pkcFinalidade" HorizontalOptions="FillAndExpand" Title="Qual a quantidade de ingressos?">
+                    <Picker.Items>
+                        <x:String>Cartão de crédito</x:String>
+                        <x:String>Boleto Bancário</x:String>
+                        <x:String>Cheque</x:String>
+                        <x:String>Transferência Bancária</x:String>
+                    </Picker.Items>
+                </Picker>
             </StackLayout>
             <StackLayout Padding="30"></StackLayout>
             <FlexLayout  AlignItems="Center" JustifyContent="SpaceAround">

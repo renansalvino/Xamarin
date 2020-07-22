@@ -5,12 +5,12 @@ using Xamarin.Forms.Xaml;
 namespace WSTower_App2
 {
     public partial class App : Application
-    {
+    {   
         public App()
         {
             InitializeComponent();
 
-            MainPage = new DetalhesPage();
+            MainPage = new CompraIngressos();
         }
 
         protected override void OnStart()
